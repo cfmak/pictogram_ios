@@ -42,9 +42,6 @@
 		32993B1514B41C4500CFE369 /* crossCorner12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32993B1414B41C4500CFE369 /* crossCorner12.jpg */; };
 		329DF549149F321700FECB12 /* CPictogramDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329DF545149F321700FECB12 /* CPictogramDecoder.cpp */; };
 		329DF54A149F321700FECB12 /* FastMatchTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329DF547149F321700FECB12 /* FastMatchTemplate.cpp */; };
-		32B4CEB314A46F6700800571 /* checkerboardCorner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B4CEB214A46F6700800571 /* checkerboardCorner.jpg */; };
-		32B4CEB514A47BEE00800571 /* checkerboardCornerSmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B4CEB414A47BEE00800571 /* checkerboardCornerSmall.jpg */; };
-		32B4CEDB14A5DFE400800571 /* checkerboardCorner12.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 32B4CEDA14A5DFE400800571 /* checkerboardCorner12.bmp */; };
 		32EAC31814C936A2007C0242 /* CPictogramEncoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32EAC31714C936A2007C0242 /* CPictogramEncoder.cpp */; };
 		32F6CDFD14CBA4B3007ACAE0 /* ConfirmPictureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32F6CDFC14CBA4B3007ACAE0 /* ConfirmPictureViewController.mm */; };
 /* End PBXBuildFile section */
@@ -111,9 +108,6 @@
 		329DF546149F321700FECB12 /* CPictogramDecoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CPictogramDecoder.hpp; sourceTree = "<group>"; };
 		329DF547149F321700FECB12 /* FastMatchTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FastMatchTemplate.cpp; sourceTree = "<group>"; };
 		329DF548149F321700FECB12 /* FastMatchTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastMatchTemplate.h; sourceTree = "<group>"; };
-		32B4CEB214A46F6700800571 /* checkerboardCorner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = checkerboardCorner.jpg; path = images/checkerboardCorner.jpg; sourceTree = "<group>"; };
-		32B4CEB414A47BEE00800571 /* checkerboardCornerSmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = checkerboardCornerSmall.jpg; path = images/checkerboardCornerSmall.jpg; sourceTree = "<group>"; };
-		32B4CEDA14A5DFE400800571 /* checkerboardCorner12.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = checkerboardCorner12.bmp; path = images/checkerboardCorner12.bmp; sourceTree = "<group>"; };
 		32EAC31514C933BD007C0242 /* CPictogramEncoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CPictogramEncoder.hpp; sourceTree = "<group>"; };
 		32EAC31614C9354D007C0242 /* PictoType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PictoType.hpp; sourceTree = "<group>"; };
 		32EAC31714C936A2007C0242 /* CPictogramEncoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPictogramEncoder.cpp; sourceTree = "<group>"; };
@@ -220,9 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				32993B1414B41C4500CFE369 /* crossCorner12.jpg */,
-				32B4CEDA14A5DFE400800571 /* checkerboardCorner12.bmp */,
-				32B4CEB414A47BEE00800571 /* checkerboardCornerSmall.jpg */,
-				32B4CEB214A46F6700800571 /* checkerboardCorner.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -313,7 +304,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Aptogo Limited";
 			};
-			buildConfigurationList = 0013FA1A14111D0E004DC957 /* Build configuration list for PBXProject "PictogramForIphone" */;
+			buildConfigurationList = 0013FA1A14111D0E004DC957 /* Build configuration list for PBXProject "PictogramForIphone1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -336,9 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0013FA2F14111D0F004DC957 /* InfoPlist.strings in Resources */,
-				32B4CEB314A46F6700800571 /* checkerboardCorner.jpg in Resources */,
-				32B4CEB514A47BEE00800571 /* checkerboardCornerSmall.jpg in Resources */,
-				32B4CEDB14A5DFE400800571 /* checkerboardCorner12.bmp in Resources */,
 				32993B1514B41C4500CFE369 /* crossCorner12.jpg in Resources */,
 				3278FCBD14C90FFC00594D3E /* MainStoryboard.storyboard in Resources */,
 			);
@@ -492,7 +480,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0013FA1A14111D0E004DC957 /* Build configuration list for PBXProject "PictogramForIphone" */ = {
+		0013FA1A14111D0E004DC957 /* Build configuration list for PBXProject "PictogramForIphone1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0013FA3F14111D0F004DC957 /* Debug */,
