@@ -1,0 +1,10 @@
+What is pictogram?
+
+The idea is: 
+Every picture can be a key to more data.
+
+A pictogram is a recognized picture which you can scan to retrieve a more data. (Think barcode or QR code, which can scan to open a website). The client uses image recognition algorithms to find signatures from the image, and the server would find the closest matching image (KNN algo). The server can then return some more data, or a website, back tot he client.
+
+This project is inspired by QR code, and the usual lack of human understandable cue a QR code can deliver.
+
+This is a project I did in Stanford for the Digital Image Processing class in 2011.
